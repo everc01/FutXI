@@ -1,6 +1,8 @@
 *{
-    padding: 0px;
-	margin: 0px;
+  box-sizing: border-box;
+ padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -14,7 +16,7 @@ header{
 	height: 60px;
 	z-index: 3000;
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-	position: fixed;
+position: fixed;
     top: 0px;
 }
 
@@ -27,10 +29,13 @@ header{
 		align-items: center;
 
 }
- .logo img {
+.wrapper .logo img{
+  margin-bottom: 60px;
+  margin-right: 60px;
+  padding-left: 6px;
 
-	padding-right: 5px;
-
+width: 100%;
+	max-width: 65px;
 }
 
 
@@ -44,6 +49,7 @@ header{
 
 nav{
 display: inline-block;
+
 }
 
 
@@ -54,8 +60,7 @@ display: inline-block;
 
 li{ 
     display: inline-block;
-    padding: 19px;
-    cursor: pointer;
+  cursor: pointer;
 
 }
 
@@ -63,6 +68,12 @@ li:hover{
     background:#fff;
 }
 
+select{
+  margin-top: 15px;
+ background-color:rgb(0, 0, 0);
+ color: #eceeef;
+
+}
 
     a {
         text-decoration: none;
@@ -84,7 +95,7 @@ li:hover{
 					.input_search{
 						border: none;
 						padding: 10px 20px 10px 0px;
-						margin: 10px 0px 0px 20px;
+						margin: 10px 0px 60px 20px;
 						width: 200px;
 						background: #fff;
 						color:black;
@@ -99,7 +110,7 @@ li:hover{
 						cursor: pointer;
                         outline-color: transparent;
                         margin-top: 10px;
-                        margin-bottom: 5px;
+                        margin-bottom: 60px;
                         padding-left: 5px;
                         
 					}

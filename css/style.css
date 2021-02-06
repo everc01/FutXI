@@ -4,117 +4,62 @@
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-body {
-    font-family: "Roboto", sans-serif;
-	padding-top: 60px;
+.header{
+  width: 100vw;
+  background-color:rgb(29, 29, 105);
+  display: flex;
+  justify-content:center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
-
-header{
-	width: 100%;
-	background:#020557;
-	height: 60px;
-	z-index: 3000;
-	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-position: fixed;
-    top: 0px;
+.logo{
+  padding: 5px;
 }
-
-.wrapper{
-		max-width: 1200px;
-		width: 90%;
-        margin: 0px auto;
-        /*FlexBox*/
-		display: flex;
-		align-items: center;
-
-}
-.wrapper .logo img{
-  margin-bottom: 60px;
-  margin-right: 60px;
-  padding-left: 6px;
-
-width: 100%;
-	max-width: 65px;
-}
-
-
-
-
-.uno_solo{
-	/*FlexBox*/
-	display: flex;
-	flex-wrap: nowrap;
-}
-
-nav{
-display: inline-block;
-
-}
-
-
-ul{
-list-style: none;
-display: inline-block;
-}
-
-li{ 
-    display: inline-block;
-  cursor: pointer;
-
-}
-
-li:hover{
-    background:#fff;
-}
-
-select{
-  margin-top: 15px;
- background-color:rgb(0, 0, 0);
- color: #eceeef;
-
-}
-
-    a {
-        text-decoration: none;
-        color:rgb(177, 161, 74);
-        font-size: 16px;
-
+    .nav .nav-items{
+      list-style: none;
+      display:inline-flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      padding: 5px;
+      margin: 10px;
+      
+    }
+    .nav .nav-items li a{
+      text-decoration:none ;
+      color:rgb(207, 183, 42) ;
+      margin: 5px;
+    }
+    .nav .nav-items li a:hover{
+    background-color:black;
+    border-radius: 3px;
+    }
+    .nav .nav-items li a:active{
+      color: #ea4c89;
     }
 
-    .form_search{
-				display: '';
-                margin-left: -15px;
-                
-    }
+      .form_search{
+        display: '';
+padding: 10px;
+      } 
 
-				.flex_search{
-                    display: flex;
-                }
-
-					.input_search{
-						border: none;
-						padding: 10px 20px 10px 0px;
-						margin: 10px 0px 60px 20px;
-						width: 200px;
-						background: #fff;
-						color:black;
-                        outline-color: transparent;
-                    }
-
-                    .button_search{
-						border: none;
-						background: transparent;
-						color: #fff;
-						font-size: 17px;
-						cursor: pointer;
-                        outline-color: transparent;
-                        margin-top: 10px;
-                        margin-bottom: 60px;
-                        padding-left: 5px;
-                        
-					}
-					
+    .flex_search{
+      box-shadow: 0 0 10px rgb(207, 183, 42);
+    }              
+			.input_search{
+        border: none;
+       padding: 10px;
+        background: transparent;
+        color: #fff;
+        outline: transparent;
+      }
+					.button_search{
+            border: none;
+            background: transparent;
+            color:rgb(207, 183, 42) ;
+            cursor: pointer;
+            outline: transparent;
+            padding: 5px;
+          }
 
 /*main*/
 main img{

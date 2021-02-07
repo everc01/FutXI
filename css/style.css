@@ -29,10 +29,19 @@
       color:rgb(207, 183, 42) ;
       margin: 5px;
     }
-    .nav .nav-items li a:hover{
-    background-color:black;
-    border-radius: 3px;
-    }
+    .cool-link::after{
+      content: '';
+      display:block;
+      width: 0;
+      height: 2px;
+      background:rgb(207, 183, 42) ;
+      transition: width .3ms;
+  }
+  .cool-link:hover::after{
+      width: 100%;
+      transition: width .3ms;
+      
+  }
     .nav .nav-items li a:active{
       color: #ea4c89;
     }

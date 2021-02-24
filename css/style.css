@@ -93,6 +93,7 @@ font-size: 1em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+ 
 
 }
 .col-xs-6{
@@ -140,6 +141,7 @@ width: 80px;
 .container2{
   display: flex;
   padding: 10px;
+  height: 25vh;
 }
 .footer-links
 {
